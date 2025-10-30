@@ -1,6 +1,5 @@
-```{r}
+
 setwd("C:/Users/baouc/OneDrive - Bournemouth University/Master/Performance Mgt/R/Case studies")
-```
 # PowerCo Customer Churn Prediction – Exploratory Data Analysis
 #!/usr/bin/env Rscript
 # 01_EDA.R - PowerCo Customer Churn Prediction
@@ -16,10 +15,9 @@ library(VIM)
 library(gridExtra)
 
 # 1. Load data --------------------------------------------------------------
-train <- read_csv("data/raw/ml_case_training_data.csv")
-hist  <- read_csv("data/raw/ml_case_training_hist_data.csv")
-out   <- read_csv("data/raw/ml_case_training_output.csv")
-
+train <- read_csv("ml_case_training_data.csv")
+hist  <- read_csv("ml_case_training_hist_data.csv")
+out   <- read_csv("ml_case_training_output.csv")
 df <- train %>% left_join(out, by="id") %>% left_join(hist, by="id")
 
 # 2. Missing Values ---------------------------------------------------------

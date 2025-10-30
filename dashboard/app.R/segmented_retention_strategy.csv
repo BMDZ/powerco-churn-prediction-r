@@ -1,0 +1,5 @@
+Risk_Segment,Count,Actual_Churn_Rate,Avg_Churn_Prob,Discount_Strategy,Campaign_Focus
+High Risk,81,0.2222222222222222,0.395042179543295,10-15% (Strategic offer),Manager outreach
+Low Risk,2852,0.0802945301542777,0.019356293878080466,0% (Maintain satisfaction),Satisfaction surveys
+Medium Risk,159,0.14465408805031446,0.21291082535149916,5-8% (Value retention),Personalized offers
+Very High Risk,128,0.453125,0.7459266661621768,15-25% (Urgent save),Executive escalation

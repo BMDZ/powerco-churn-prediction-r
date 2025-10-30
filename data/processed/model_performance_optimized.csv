@@ -1,0 +1,6 @@
+metric,value,method
+roc_auc,0.29900872465674866,xgboost_optimized
+accuracy,0.8944099378881988,xgboost_optimized
+precision,0.453125,xgboost_optimized
+recall,0.17682926829268292,xgboost_optimized
+f1_score,0.2543859649122807,xgboost_optimized

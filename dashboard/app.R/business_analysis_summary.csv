@@ -1,0 +1,9 @@
+Metric,Value,Unit
+Baseline Annual Revenue per Customer,8782247,€
+Annual Revenue Lost per Churned Customer,8070885,€
+Recommended Targeting Threshold,0.35,
+Customers to Target (test set),189,customers
+Campaign Cost per Customer,50,€
+Expected Annual Net Benefit (test set),170089502,€
+Expected ROI,1799888.9,%
+Estimated Annual Benefit (full base),850236220,€
