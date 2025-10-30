@@ -8,7 +8,7 @@
 
 | Link | Description |
 |------|-------------|
-| 🔗 **[Live Dashboard](https://bmdz.shinyapps.io/powerco_churn_dash/](https://bmdz.shinyapps.io/PowerCo_Dash/))** | Interactive analytics & scenario testing |
+| 🔗 **[Live Dashboard](https://bmdz.shinyapps.io/PowerCo_Dash/)** | Interactive analytics & scenario testing |
 | 📊 **[GitHub Repository](https://github.com/BMDZ/powerco-churn-prediction-r)** | Complete source code |
 | 📖 **[README.md](README.md)** | Main project overview |
 | 📚 **[DATA_DICTIONARY.md](DATA_DICTIONARY.md)** | Variable descriptions & data quality |
