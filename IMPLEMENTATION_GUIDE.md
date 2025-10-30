@@ -4,6 +4,17 @@
 
 ---
 
+## 🎯 Quick Links
+
+| Link | Description |
+|------|-------------|
+| 🔗 **[Live Dashboard](https://bmdz.shinyapps.io/powerco_churn_dash/)** | Interactive analytics & scenario testing |
+| 📊 **[GitHub Repository](https://github.com/BMDZ/powerco-churn-prediction-r)** | Complete source code |
+| 📖 **[README.md](README.md)** | Main project overview |
+| 📚 **[DATA_DICTIONARY.md](DATA_DICTIONARY.md)** | Variable descriptions & data quality |
+
+---
+
 ## 📋 Table of Contents
 
 1. [Quick Start](#quick-start)
@@ -312,7 +323,7 @@ cross_val_5fold <- vfold_cv(train_data, v = 5, strata = churn)
 3. **Personalize outreach**
    - Very High Risk: Account manager phone call + follow-up
    - High Risk: Email + SMS reminder
-   - Medium Risk: Email + digital ads
+   - Medium Risk: Email + targeted ads
 
 4. **Monitor dashboard metrics**
    - Daily: Offers sent, accepted, rejected
@@ -596,5 +607,5 @@ new_data <- new_data[, training_cols]  # Reorder to match
 
 **Last Updated:** October 30, 2025  
 **Status:** Production Ready  
-**Version:** 1.0
+**Version:** 1.1
 
